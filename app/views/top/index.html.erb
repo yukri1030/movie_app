@@ -1,0 +1,32 @@
+<div class="header">
+  <h1>ようこそ</h1>
+  <h2><%=link_to,'コメントを投稿する', "top/new" method: :get %></h2>
+</div>
+
+<div class="form">
+  <div class="box">
+    <h2>投稿者  <%= "nnn "%></h2>
+    <h3>コメント</h3>
+    <%= link_to '詳細',"/top/#{top_id}", method: :get , class: "detail_link" %>
+  </div>
+
+  <div class="box">
+    <h2>投稿者  <%= "nnn "%></h2>
+    <h3>コメント</h3>
+    <%= link_to '詳細',"/top/#{top_id}", method: :get , class: "detail_link"%>
+  </div>
+
+  <div class="box">
+    <h2>投稿者  <%= "abe "%></h2>
+    <h3>コメント</h3>
+    <%= link_to '詳細',"/top/#{top_id}", method: :get , class: "detail_link" %>
+  </div>
+
+</div>
+
+<div class="footer">
+  <h2><a href=""></h2>
+</div>
+
+
+  
